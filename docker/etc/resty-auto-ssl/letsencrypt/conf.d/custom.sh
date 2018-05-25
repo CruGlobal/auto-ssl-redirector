@@ -1,0 +1,1 @@
+CONTACT_EMAIL="apps@cru.org"
