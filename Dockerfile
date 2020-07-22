@@ -1,5 +1,4 @@
-FROM 056154071827.dkr.ecr.us-east-1.amazonaws.com/base-image-testing:openresty
-# FROM 056154071827.dkr.ecr.us-east-1.amazonaws.com/base-image-openresty:latest
+FROM 056154071827.dkr.ecr.us-east-1.amazonaws.com/base-image-openresty:latest
 MAINTAINER cru.org <wmd@cru.org>
 
 # Copy container configuration
