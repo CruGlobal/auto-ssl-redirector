@@ -5,7 +5,7 @@ MAINTAINER cru.org <wmd@cru.org>
 COPY docker /
 
 # Install lua-resty-auto-ssl
-RUN /usr/local/openresty/luajit/bin/luarocks install lua-resty-auto-ssl \
+RUN /usr/local/openresty/luajit/bin/luarocks install lua-resty-auto-ssl 0.13.1 \
   && chown nobody /etc/resty-auto-ssl
 
 WORKDIR /usr/local/openresty/nginx
